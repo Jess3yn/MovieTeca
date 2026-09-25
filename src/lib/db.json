@@ -1,0 +1,117 @@
+{
+  "categorias": [
+    { "id": 1, "nombre": "Ciencia Ficción", "parentId": null },
+    { "id": 2, "nombre": "Cyberpunk", "parentId": 1 },
+    { "id": 3, "nombre": "Space Opera", "parentId": 1 },
+    { "id": 4, "nombre": "Comedia", "parentId": null },
+    { "id": 5, "nombre": "Terror", "parentId": null },
+    { "id": 6, "nombre": "Animación", "parentId": null },
+    { "id": 7, "nombre": "Anime", "parentId": 6 }
+  ],
+  "directores": [
+    { "id": 1, "nombre": "Denis Villeneuve", "nacionalidad": "Canadá" },
+    { "id": 2, "nombre": "Greta Gerwig", "nacionalidad": "EE. UU." },
+    { "id": 3, "nombre": "Hayao Miyazaki", "nacionalidad": "Japón" },
+    { "id": 4, "nombre": "Jordan Peele", "nacionalidad": "EE. UU." }
+  ],
+  "peliculas": [
+    {
+      "id": 1,
+      "titulo": "Dune: Parte Dos",
+      "anio": 2024,
+      "duracion": 166,
+      "directorId": 1,
+      "categoriaId": 3,
+      "clasificacion": "PG-13",
+      "poster": "https://en.wikipedia.org/wiki/Special:FilePath/Dune_Part_Two_poster.jpeg"
+    },
+    {
+      "id": 2,
+      "titulo": "Blade Runner 2049",
+      "anio": 2017,
+      "duracion": 164,
+      "directorId": 1,
+      "categoriaId": 2,
+      "clasificacion": "PG-13",
+      "poster": "https://en.wikipedia.org/wiki/Special:FilePath/Blade_Runner_2049_poster.png"
+    },
+    {
+      "id": 3,
+      "titulo": "Interstellar",
+      "anio": 2014,
+      "duracion": 169,
+      "directorId": 1,
+      "categoriaId": 3,
+      "clasificacion": "PG",
+      "poster": "https://en.wikipedia.org/wiki/Special:FilePath/Interstellar_film_poster.jpg"
+    },
+    {
+      "id": 4,
+      "titulo": "Barbie",
+      "anio": 2023,
+      "duracion": 114,
+      "directorId": 2,
+      "categoriaId": 4,
+      "clasificacion": "PG-13",
+      "poster": "https://en.wikipedia.org/wiki/Special:FilePath/Barbie_2023_poster.jpg"
+    },
+    {
+      "id": 5,
+      "titulo": "El Viaje de Chihiro",
+      "anio": 2001,
+      "duracion": 125,
+      "directorId": 3,
+      "categoriaId": 7,
+      "clasificacion": "PG",
+      "poster": "https://en.wikipedia.org/wiki/Special:FilePath/Spirited_Away_Japanese_poster.png"
+    },
+    {
+      "id": 6,
+      "titulo": "Mi Vecino Totoro",
+      "anio": 1988,
+      "duracion": 86,
+      "directorId": 3,
+      "categoriaId": 7,
+      "clasificacion": "G",
+      "poster": "https://en.wikipedia.org/wiki/Special:FilePath/My_Neighbor_Totoro_-_Tonari_no_Totoro_(Movie_Poster).jpg"
+    },
+    {
+      "id": 7,
+      "titulo": "¡Nope!",
+      "anio": 2022,
+      "duracion": 135,
+      "directorId": 4,
+      "categoriaId": 5,
+      "clasificacion": "R",
+      "poster": "https://en.wikipedia.org/wiki/Special:FilePath/Nope_(film)_poster.jpg"
+    },
+    {
+      "id": 8,
+      "titulo": "Nosotros",
+      "anio": 2019,
+      "duracion": 116,
+      "directorId": 4,
+      "categoriaId": 5,
+      "clasificacion": "R",
+      "poster": "https://en.wikipedia.org/wiki/Special:FilePath/Us_(2019)_theatrical_poster.png"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Ana",
+      "correo": "ana@mail.com",
+      "password": "1234",
+      "rol": "admin",
+      "favoritas": [1, 2, 5]
+    },
+    {
+      "id": 2,
+      "nombre": "Luis",
+      "correo": "luis@mail.com",
+      "password": "1234",
+      "rol": "user",
+      "favoritas": [4, 6]
+    }
+  ]
+}
